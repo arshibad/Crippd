@@ -21,7 +21,7 @@ var app = {
     receivedEvent: function() {
 		setTimeout(function(){
         window.open('http://crippd.com', '_self', 'location=yes'); 
-      },5000);
+      },2000);
       
     }
 };
