@@ -19,19 +19,17 @@
       background-color: rgba(0, 0, 0, 0.9);
       color: #BDBDBD;
       box-shadow: 0px 2px 4px #5C5C5C;
-      padding: 4px;
+      padding: 2px;
     }  
     </style>
   <body style="margin:0px;">
-    <div style="position:fixed;z-index:9999;width:100%;min-height:100%;margin: auto;text-align: center;background: url(splash.png);background-repeat: no-repeat;background-position: 0% 100%;background-size: 100% 100%;">
-      <div style="height:100%;padding-top:50%;padding-top: 100%;margin-top: 40px;">
-      <div class="loading">
-        <div style="float:left;width:40%;"><img src="img/9.gif" style="margin: 0px -37px 0px 0px;" valign="absmiddle"></div>  
-        <div style="float:right;width:60%;"><span>Loading...</span></div>  
-        
-      </div>
-      </div>
+    <div id="bgimage" style="width:100%;min-height:100%;margin: auto;text-align: center;background: url(splash.png);background-repeat: no-repeat;background-position: 0% 100%;background-size: 100% 100%;">
+      &nbsp;
     </div>
-    
+    <div style="position:absolute;z-index: 9999;top: 61%;text-align: center;width: 100%;">
+        <div class="loading">
+          <img src="img/9.gif" style="margin: 0px 5px 0px 0px;vertical-align: middle;"><span>Loading...</span>
+        </div>
+    </div>
   </body>
 </html>

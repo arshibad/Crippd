@@ -29,3 +29,12 @@ var app = {
       
     }
 };
+
+$( window ).resize(function() {
+  $('#bgimage').css('height',$(window).height()+'px');
+});
+
+$(document).ready(function(){
+    //alert($(window).height());
+    $('#bgimage').css('height',$(window).height()+'px');
+})
